@@ -107,6 +107,8 @@ parser.add_argument("--shape2motion_category", type=str, default=None)
 parser.add_argument("--update_category", type=str, default=None)
 parser.add_argument("--prealign_category", type=str, default=None)
 
+parser.add_argument("--largest_as_static", type=int, default=1)
+
 args = parser.parse_args()
 
 # ablation------------------------
@@ -130,6 +132,11 @@ if args.use_secondary == 1:
     use_secondary = True
 else:
     use_secondary = False
+
+if args.largest_as_static == 1:
+    largest_as_static = True
+else:
+    largest_as_static = False
 
 enc_dim = args.enc_dim
 add_motion_level = args.add_motion_level

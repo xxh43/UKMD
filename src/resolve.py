@@ -306,7 +306,9 @@ def resolve_annotations(shapes, joints, rotation_annotations, rotation_validate_
 
         part_to_static[best_movable_part_index] = False
         part_to_static[best_static_part_index] = True
-        #part_to_static[largest_part_index] = True
+        
+        if largest_as_static:
+            part_to_static[largest_part_index] = True
 
         for j in range(len(shapes[i].parts)):
             if part_to_static[j] is True and len(shape_annotation[j])>0:
