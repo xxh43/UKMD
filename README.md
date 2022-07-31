@@ -2,11 +2,28 @@
 
 This is the official code for our paper "Unsupervised Kinematic Motion Detection for Part-segmented 3D Shape Collections", https://arxiv.org/abs/2206.08497 
 
+
+required python packages:
+
+trimesh
+pytorch
+pytorch3d
+plotly
+numpy
+joblib
+networkx
+scipy
+sklearn
+json
+
+
 # Process partnet mobility dataset:
 
 create a folder named "data" in parallel to the "src" folder and put the PartNetMobility dataset files in the folder. 
 The folder structure will be: 
+
 data/partnet/geo
+
 data/partnet/precomputed
 
 python main.py --option process --category 'Category'
