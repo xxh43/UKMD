@@ -42,7 +42,7 @@ python main.py --option accuracy --category 'Category'
 
 
 
-Other comments:
+# Additional instructions:
 
 The config.py file contains a lot of adjustable hyper-parameters and configurable settings of the system, the performance of the system
 can be sensitive to these hyper-parameters and settings.
