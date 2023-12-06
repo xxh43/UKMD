@@ -1,7 +1,7 @@
 
 # Update (Dec 7, 2023)
 
-We will soon provide a version of PartNetMobility dataset.
+We will soon provide a compatible version of PartNetMobility dataset.
 
 
 # More code and instructions will be avaliable soon
