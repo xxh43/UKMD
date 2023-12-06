@@ -1,8 +1,7 @@
 
 # Update (Dec 7, 2023)
 
-We will soon provide a compatible version of PartNetMobility dataset.
-
+If the latest PartNetMobility dataset cause any issue to the code, Please use the PartNetMobility dataset from this link:  https://drive.google.com/file/d/1zT6x8ZjICP3aHVZ0wpfxHDCMCFId1NrK/view?usp=sharing
 
 # More code and instructions will be avaliable soon
 
