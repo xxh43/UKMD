@@ -1,3 +1,9 @@
+
+# Update (Dec 7, 2023)
+
+We will soon provide a version of PartNetMobility dataset.
+
+
 # More code and instructions will be avaliable soon
 
 This is the official code for our paper "Unsupervised Kinematic Motion Detection for Part-segmented 3D Shape Collections", https://arxiv.org/abs/2206.08497 
@@ -46,3 +52,10 @@ python main.py --option accuracy --category 'Category'
 
 The config.py file contains a lot of adjustable hyper-parameters and configurable settings of the system, the performance of the system
 can be sensitive to these hyper-parameters and settings.
+
+
+
+
+
+
+
