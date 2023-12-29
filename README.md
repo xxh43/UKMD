@@ -43,7 +43,8 @@ python main.py --option resolve --category 'Category'
 
 After runing the resolve, a file named shape_annotations.joblib should be generated in the exp/category/* folder, the file is a list containing the annotations for all shapes, then each item in this list corresponds to the annotion of one shape, the item itself is another list, with each item being the annotation of a part of the shape. 
 
-The format for the part annotation is : ((shape id, shape part id), motion type, motion axis direction, motion axis center/pivot, motion min range, motion max range, moving part point cloud (for debug, can ignore), base part point cloud (for debug, can ignore), rotation group(for debug, can ignore), translation group(for debug, can ignore)  )
+The format for the part annotation is : 
+((shape id, shape part id), motion type, motion axis direction, motion axis center/pivot, motion min range, motion max range, moving part point cloud (for debug, can ignore), base part point cloud (for debug, can ignore), rotation group(for debug, can ignore), translation group(for debug, can ignore)  )
 
 # Compute motion prediction accuracy:
 
